@@ -4,21 +4,13 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "npm run build && nodemon server.js",
-    "build": "babel jsx-components --out-dir components && babel server.jsx --out-file server.js"
+    "build": "babel public/jsx-components --out-dir public/js"
   },
   "author": "Ayush Gupta",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.18.1",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0"
-  },
   "devDependencies": {
     "@babel/cli": "^7.17.10",
     "@babel/core": "^7.17.10",
-    "@babel/preset-react": "^7.16.7",
-    "nodemon": "^2.0.16"
+    "@babel/preset-react": "^7.16.7"
   }
 }

@@ -40,5 +40,5 @@ function saveDetails(savedUserIDs, savedPasswords, userID, password) {
 
 function redirectTo(str) {
   if (str === "homepage") location.href = location.origin;
-  else if (str === "loggedInpage") location.href = location.origin + "/loggedIn";
+  else if (str === "loggedInpage") location.href = location.origin + "/loggedIn.html";
 }
