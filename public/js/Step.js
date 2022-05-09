@@ -1,5 +1,3 @@
-const React = require('react');
-
 const steps = [{
   name: "1. Create Account",
   description: "Create your account using phonenumber or email or email and take a free trial at &#8377; 1."
@@ -26,6 +24,4 @@ const Step = () => {
   }, stepCards);
 };
 
-module.exports = {
-  Step
-};
+export default Step;

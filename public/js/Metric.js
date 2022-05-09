@@ -1,5 +1,3 @@
-const React = require('react');
-
 const metrics = [{
   name: "mobile downloads",
   value: "50k"
@@ -30,6 +28,4 @@ const Metric = () => {
   }, metricCards);
 };
 
-module.exports = {
-  Metric
-};
+export default Metric;

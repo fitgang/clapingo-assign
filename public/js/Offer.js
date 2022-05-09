@@ -1,5 +1,3 @@
-const React = require('react');
-
 const offerings = [{
   heading: "customized curriculum",
   description: "Customized sessions and module for Basic, Intermediate and Advanced learners."
@@ -25,6 +23,4 @@ const Offer = () => {
   }, offerCards);
 };
 
-module.exports = {
-  Offer
-};
+export default Offer;

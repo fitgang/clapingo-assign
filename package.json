@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "build": "babel public/jsx-components --out-dir public/js"
+    "build": "babel jsx-components --out-dir public/js"
   },
   "author": "Ayush Gupta",
   "license": "ISC",
