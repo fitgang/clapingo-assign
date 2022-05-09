@@ -1,0 +1,79 @@
+:root {
+  --padding-hor: 6rem;
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.125em;
+  padding: 1em var(--padding-hor);
+  box-shadow: 0 1px 16px #00000017;
+}
+
+h1 {
+  color: #179a81;
+  margin: 0;
+}
+
+nav>ul {
+  list-style-type: none;
+  display: flex;
+  gap: 3.5em;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+#hero1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1em var(--padding-hor);
+}
+
+#hero1>.text-content {
+  padding-right: 7em;
+}
+
+#hero1 .btn-container {
+  margin-top: 2.5em;
+}
+
+#hero1 button {
+  font-size: 1em;
+}
+
+#liner1 {
+  font-size: 3em;
+  margin: 0 0 0.5em 0;
+}
+
+.pri-btn {
+  padding: 10px 24px;
+  border-radius: 100px;
+  border: 2px solid #ff736a;
+  background-color: #ff736a;
+  color: #fff;
+}
+
+.sec-btn {
+  color: #ff736a;
+  background-color: inherit;
+}
+
+#login-btn {
+  text-decoration: none;
+  background-color: #16c1a7;
+  color: #fff;
+  border-color: inherit;
+}
