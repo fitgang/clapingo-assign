@@ -1,3 +1,5 @@
+const React = require('react');
+
 const steps = [
   {
     name: "1. Create Account",
@@ -26,3 +28,5 @@ const Step = () => {
   );
   return <div id="step-container">{stepCards}</div>
 }
+
+module.exports = {Step}

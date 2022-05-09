@@ -1,3 +1,5 @@
+const React = require('react');
+
 const metrics = [
   {
     name: "mobile downloads",
