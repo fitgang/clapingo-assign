@@ -22,7 +22,7 @@ const Offer = () => {
       </div>
     </div>
   )
-  return <div id="offer-card-container">{offerCards}</div>
+  return <>{offerCards}</>
 }
 
 export default Offer

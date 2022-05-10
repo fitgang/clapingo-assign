@@ -23,9 +23,7 @@ const Metric = () => {
   }, "+")), /*#__PURE__*/React.createElement("div", {
     className: "metric-name"
   }, name)));
-  return /*#__PURE__*/React.createElement("div", {
-    id: "metric-container"
-  }, metricCards);
+  return /*#__PURE__*/React.createElement(React.Fragment, null, metricCards);
 };
 
 export default Metric;

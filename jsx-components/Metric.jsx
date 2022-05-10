@@ -27,7 +27,7 @@ const Metric = () => {
       <div className="metric-name">{name}</div>
     </div>
   )
-  return <div id="metric-container">{metricCards}</div>
+  return <>{metricCards}</>
 }
 
 export default Metric

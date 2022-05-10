@@ -18,9 +18,7 @@ const Offer = () => {
   }, /*#__PURE__*/React.createElement("div", {
     className: "content"
   }, /*#__PURE__*/React.createElement("h4", null, heading), /*#__PURE__*/React.createElement("p", null, description))));
-  return /*#__PURE__*/React.createElement("div", {
-    id: "offer-card-container"
-  }, offerCards);
+  return /*#__PURE__*/React.createElement(React.Fragment, null, offerCards);
 };
 
 export default Offer;

@@ -24,7 +24,7 @@ const Step = () => {
       <p>{description}</p>
     </div>
   );
-  return <div id="step-container">{stepCards}</div>
+  return <>{stepCards}</>
 }
 
 export default Step

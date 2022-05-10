@@ -19,9 +19,7 @@ const Step = () => {
   }) => /*#__PURE__*/React.createElement("div", {
     className: "step"
   }, /*#__PURE__*/React.createElement("h4", null, name), /*#__PURE__*/React.createElement("p", null, description)));
-  return /*#__PURE__*/React.createElement("div", {
-    id: "step-container"
-  }, stepCards);
+  return /*#__PURE__*/React.createElement(React.Fragment, null, stepCards);
 };
 
 export default Step;
