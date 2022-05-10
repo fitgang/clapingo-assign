@@ -196,6 +196,8 @@ h3 {
   padding: 0.5em 2em;
   padding-bottom: 1em;
   text-align: left;
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit;
 }
 
 .offer-card .content>h4 {
