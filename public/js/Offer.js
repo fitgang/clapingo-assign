@@ -15,7 +15,10 @@ const Offer = () => {
     description
   }) => /*#__PURE__*/React.createElement("div", {
     className: "offer-card"
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("img", {
+    src: "./images/bulb.jpg",
+    className: "bg-img"
+  }), /*#__PURE__*/React.createElement("div", {
     className: "content"
   }, /*#__PURE__*/React.createElement("h4", null, heading), /*#__PURE__*/React.createElement("p", null, description))));
   return /*#__PURE__*/React.createElement(React.Fragment, null, offerCards);

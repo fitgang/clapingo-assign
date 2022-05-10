@@ -150,3 +150,61 @@ nav a {
   font-size: 2em;
   margin-bottom: 4px;
 }
+
+#offering {
+  text-align: center;
+}
+
+h3 {
+  font-size: 3em;
+  margin: 0;
+  margin-bottom: 1em;
+}
+
+#offer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.offer-card {
+  width: 30%;
+  position: relative;
+  height: 18em;
+  border-radius: 20px;
+}
+
+.offer-card .bg-img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: inherit;
+  border-radius: inherit;
+}
+
+.offer-card .content {
+  position: absolute;
+  bottom: 0;
+  box-sizing: border-box;
+  color: #fff;
+  width: 100%;
+  -webkit-backdrop-filter: blur(50px);
+          backdrop-filter: blur(50px);
+  padding: 0.5em 2em;
+  padding-bottom: 1em;
+  text-align: left;
+}
+
+.offer-card .content>h4 {
+  color: #00d2ff;
+  font-size: 1.2em;
+  margin: 0;
+  font-weight: 100;
+}
+
+.offer-card .content>p {
+  margin-bottom: 0;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+}

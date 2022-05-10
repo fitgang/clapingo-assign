@@ -16,6 +16,7 @@ const offerings = [
 const Offer = () => {
   const offerCards = offerings.map(({heading, description}) => 
     <div className="offer-card">
+      <img src="./images/bulb.jpg" className="bg-img"/>
       <div className="content">
         <h4>{heading}</h4>
         <p>{description}</p>
