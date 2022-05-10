@@ -16,9 +16,11 @@ const Metric = () => {
   const metricCards = metrics.map(({
     name,
     value
-  }) => /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("span", {
+  }) => /*#__PURE__*/React.createElement("div", {
+    className: "metric-card"
+  }, /*#__PURE__*/React.createElement("div", {
     className: "metric-value"
-  }, value), /*#__PURE__*/React.createElement("span", {
+  }, /*#__PURE__*/React.createElement("span", null, value), /*#__PURE__*/React.createElement("span", {
     className: "hl-text"
   }, "+")), /*#__PURE__*/React.createElement("div", {
     className: "metric-name"

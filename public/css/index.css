@@ -7,6 +7,37 @@ body {
   margin: 0;
 }
 
+.hl-text {
+  color: #179a81;
+}
+
+.section {
+  padding: 3em var(--padding-hor);
+}
+
+.section button {
+  font-size: 1em;
+}
+
+.pri-btn {
+  padding: 10px 24px;
+  border-radius: 100px;
+  border: 2px solid #ff736a;
+  background-color: #ff736a;
+  color: #fff;
+}
+
+.sec-btn {
+  color: #ff736a;
+  background-color: inherit;
+}
+
+.std-text {
+  font-size: 1.125em;
+  letter-spacing: 0.5px;
+  line-height: 150%;
+}
+
 header {
   display: flex;
   align-items: center;
@@ -35,40 +66,40 @@ nav a {
   font-weight: bold;
 }
 
-#hero1 {
+#hero1,
+#hero2,
+#metric-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 1em var(--padding-hor);
+}
+
+#hero1 {
+  padding-bottom: 5em;
 }
 
 #hero1>.text-content {
-  padding-right: 7em;
+  padding-right: 1em;
 }
 
 #hero1 .btn-container {
   margin-top: 2.5em;
 }
 
-#hero1 button {
-  font-size: 1em;
-}
-
 #liner1 {
-  font-size: 3em;
+  font-size: 4em;
   margin: 0 0 0.5em 0;
 }
 
-.pri-btn {
-  padding: 10px 24px;
-  border-radius: 100px;
-  border: 2px solid #ff736a;
-  background-color: #ff736a;
-  color: #fff;
+#hero1 .image-content {
+  padding: 2em 7em;
+  padding-right: 0;
+  box-sizing: border-box;
 }
 
-.sec-btn {
-  color: #ff736a;
-  background-color: inherit;
+#hero1 .image {
+  border: 2px solid black;
+  height: 100%;
+  border-radius: 40px;
 }
 
 #login-btn {
@@ -76,4 +107,46 @@ nav a {
   background-color: #16c1a7;
   color: #fff;
   border-color: inherit;
+}
+
+#hero2 {
+  padding: 3em var(--padding-hor);
+  background: linear-gradient(90deg, #1ed7ff, transparent 50%);
+}
+
+#hero2 .hl-text {
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+#liner2 {
+  font-size: 3em;
+  margin: 0.1em 0 0.5em 0;
+}
+
+#metric-container {
+  padding: 1em 2em;
+  padding-right: 8em;
+}
+
+.metric-card {
+  width: 13em;
+  height: 5em;
+  padding-top: 1em;
+  border-radius: 12px;
+  color: #fff;
+  background: #3a3636;
+  text-align: center;
+  padding-bottom: 0.5em;
+}
+
+.metric-card:nth-child(3),
+.metric-card:nth-child(4) {
+  position: relative;
+  left: 2em;
+}
+
+.metric-value {
+  font-size: 2em;
+  margin-bottom: 4px;
 }

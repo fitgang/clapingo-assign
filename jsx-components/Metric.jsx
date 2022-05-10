@@ -19,9 +19,9 @@ const metrics = [
 
 const Metric = () => {
   const metricCards = metrics.map(({ name, value }) =>
-    <div>
-      <div>
-        <span className="metric-value">{value}</span>
+    <div className="metric-card">
+      <div className="metric-value">
+        <span>{value}</span>
         <span className="hl-text">+</span>
       </div>
       <div className="metric-name">{name}</div>
